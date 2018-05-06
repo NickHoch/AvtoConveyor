@@ -9,7 +9,7 @@ namespace AutoConveyor.Pattern
 {
     public class Engineer
     {
-        Conveyor.Conveyor conveyor = null;
+        private Conveyor.Conveyor conveyor = null;
         public Engineer(Conveyor.Conveyor conveyor)
         {
             this.conveyor = conveyor;

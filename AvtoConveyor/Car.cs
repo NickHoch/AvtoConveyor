@@ -9,7 +9,7 @@ namespace AutoConveyor
 {
     public abstract class Car
     {
-        public ArrayList parts = new ArrayList();
+        protected ArrayList parts = new ArrayList();
         public abstract void Add(Unit unit);
     }
 }
