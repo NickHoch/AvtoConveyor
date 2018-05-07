@@ -42,13 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Jeep\AirConditioning.cs" />
-    <Compile Include="Jeep\Body.cs" />
-    <Compile Include="Jeep\Engine.cs" />
-    <Compile Include="Jeep\Jeep.cs" />
-    <Compile Include="Jeep\Radio.cs" />
-    <Compile Include="Jeep\Salon.cs" />
+    <Compile Include="Cars\Car.cs" />
+    <Compile Include="Cars\Jeep\AirConditioning.cs" />
+    <Compile Include="Cars\Jeep\Body.cs" />
+    <Compile Include="Cars\Jeep\Engine.cs" />
+    <Compile Include="Cars\Jeep\Jeep.cs" />
+    <Compile Include="Cars\Jeep\Radio.cs" />
+    <Compile Include="Cars\Jeep\Salon.cs" />
     <Compile Include="Pattern\Conveyor\Conveyor.cs" />
     <Compile Include="Pattern\Conveyor\JeepConveyor.cs" />
     <Compile Include="Pattern\Conveyor\SportCarConveyor.cs" />
@@ -56,19 +56,19 @@
     <Compile Include="Pattern\Engineer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SportCar\AirConditioning.cs" />
-    <Compile Include="SportCar\Body.cs" />
-    <Compile Include="SportCar\Engine.cs" />
-    <Compile Include="SportCar\Radio.cs" />
-    <Compile Include="SportCar\Salon.cs" />
-    <Compile Include="SportCar\SportCar.cs" />
-    <Compile Include="Unit.cs" />
-    <Compile Include="Universal\AirConditioning.cs" />
-    <Compile Include="Universal\Body.cs" />
-    <Compile Include="Universal\Engine.cs" />
-    <Compile Include="Universal\Radio.cs" />
-    <Compile Include="Universal\Salon.cs" />
-    <Compile Include="Universal\Universal.cs" />
+    <Compile Include="Cars\SportCar\AirConditioning.cs" />
+    <Compile Include="Cars\SportCar\Body.cs" />
+    <Compile Include="Cars\SportCar\Engine.cs" />
+    <Compile Include="Cars\SportCar\Radio.cs" />
+    <Compile Include="Cars\SportCar\Salon.cs" />
+    <Compile Include="Cars\SportCar\SportCar.cs" />
+    <Compile Include="Cars\Unit.cs" />
+    <Compile Include="Cars\Universal\AirConditioning.cs" />
+    <Compile Include="Cars\Universal\Body.cs" />
+    <Compile Include="Cars\Universal\Engine.cs" />
+    <Compile Include="Cars\Universal\Radio.cs" />
+    <Compile Include="Cars\Universal\Salon.cs" />
+    <Compile Include="Cars\Universal\Universal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -16,11 +16,11 @@ namespace AutoConveyor.Pattern
         }
         public void Construct()
         {
-            conveyor.InstalledBody();
-            conveyor.InstalledEngine();
-            conveyor.InstalledAirConditioning();
-            conveyor.InstalledSalon();
-            conveyor.InstalledRadio();
+            conveyor.InstallBody();
+            conveyor.InstallEngine();
+            conveyor.InstallAirConditioning();
+            conveyor.InstallSalon();
+            conveyor.InstallRadio();
         }
     }
 }

@@ -10,23 +10,23 @@ namespace AutoConveyor.Pattern.Conveyor
     public class SportCarConveyor : Conveyor
     {
         SportCar.SportCar sportCar = new SportCar.SportCar();
-        public override void InstalledBody()
+        public override void InstallBody()
         {
             sportCar.Add(new Body());
         }
-        public override void InstalledEngine()
+        public override void InstallEngine()
         {
             sportCar.Add(new Engine());
         }
-        public override void InstalledAirConditioning()
+        public override void InstallAirConditioning()
         {
             sportCar.Add(new AirConditioning());
         }
-        public override void InstalledSalon()
+        public override void InstallSalon()
         {
             sportCar.Add(new Salon());
         }
-        public override void InstalledRadio()
+        public override void InstallRadio()
         {
             sportCar.Add(new Radio());
         }

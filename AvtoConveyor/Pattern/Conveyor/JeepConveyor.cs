@@ -10,23 +10,23 @@ namespace AutoConveyor.Pattern.Conveyor
     public class JeepConveyor : Conveyor
     {
         Jeep.Jeep jeep = new Jeep.Jeep();
-        public override void InstalledBody()
+        public override void InstallBody()
         {
             jeep.Add(new Body());
         }
-        public override void InstalledEngine()
+        public override void InstallEngine()
         {
             jeep.Add(new Engine());
         }
-        public override void InstalledAirConditioning()
+        public override void InstallAirConditioning()
         {
             jeep.Add(new AirConditioning());
         }
-        public override void InstalledSalon()
+        public override void InstallSalon()
         {
             jeep.Add(new Salon());
         }
-        public override void InstalledRadio()
+        public override void InstallRadio()
         {
             jeep.Add(new Radio());
         }

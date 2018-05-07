@@ -9,11 +9,11 @@ namespace AutoConveyor.Pattern.Conveyor
 {
     public abstract class Conveyor
     {
-        public abstract void InstalledBody();
-        public abstract void InstalledEngine();
-        public abstract void InstalledAirConditioning();
-        public abstract void InstalledSalon();
-        public abstract void InstalledRadio();
+        public abstract void InstallBody();
+        public abstract void InstallEngine();
+        public abstract void InstallAirConditioning();
+        public abstract void InstallSalon();
+        public abstract void InstallRadio();
         public abstract Car GetResult();
     }
 }

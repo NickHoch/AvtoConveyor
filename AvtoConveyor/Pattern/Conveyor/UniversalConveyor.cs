@@ -10,23 +10,23 @@ namespace AutoConveyor.Pattern.Conveyor
     public class UniversalConveyor : Conveyor
     {
         Universal.Universal universal = new Universal.Universal();
-        public override void InstalledBody()
+        public override void InstallBody()
         {
             universal.Add(new Body());
         }
-        public override void InstalledEngine()
+        public override void InstallEngine()
         {
             universal.Add(new Engine());
         }
-        public override void InstalledAirConditioning()
+        public override void InstallAirConditioning()
         {
             universal.Add(new AirConditioning());
         }
-        public override void InstalledSalon()
+        public override void InstallSalon()
         {
             universal.Add(new Salon());
         }
-        public override void InstalledRadio()
+        public override void InstallRadio()
         {
             universal.Add(new Radio());
         }
